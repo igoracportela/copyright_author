@@ -20,10 +20,12 @@ Or install it yourself as:
 
 In your shell inside project folder
 
-	copyright_author "Your Name"
+	copyright_author "Your Name" "Base year" "directory"
+
+- If directory was blank, all files of all directories will update
 
 This will add all files (.rb .rake .haml) the following markup (recursively):
 
-	# Author - YOUR NAME | Copyright(c) YEAR. All rights reserved.
+	# Author - YOUR NAME | Copyright(c) from BASE_YEAR until CURRENT_YEAR. All rights reserved.
 
 If already existing copyright comments will be replaced
