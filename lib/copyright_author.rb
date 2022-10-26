@@ -1,4 +1,4 @@
-# Author - Igor | Copyright(c) 2012. All rights reserved.
+# Author - Igor Amorim Costa Portela | Copyright(c) 2012. All rights reserved.
 require "copyright_author/version"
 
 module AddCopyrightAuthor
@@ -6,9 +6,10 @@ module AddCopyrightAuthor
 
     # defaults
     name  = options[0] || "NO AUTHOR"
-    directory = options[1] || Dir.pwd
+	year = options[1] || ""
+    directory = options[2] || Dir.pwd
 
-    prefix = "Author - #{name} | Copyright(c) #{Time.now.year}. All rights reserved.\n"
+    prefix = "Author - #{name} | Copyright(c) from #{year} until #{Time.now.year}. All rights reserved.\n"
 
 	extensions = {
 		'rb' => '# {text}',
