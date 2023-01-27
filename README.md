@@ -33,3 +33,8 @@ If already existing copyright comments will be replaced
 ## Rubygems
 ![Screenshot from 2023-01-26 21-06-39](https://user-images.githubusercontent.com/85773564/214977977-6497931a-be5d-4b03-a536-9ac304129136.png)
 
+### I needed to change the name on rubygems because I lost the custom email for old account. So, I changed the name on rubygems: 
+
+#### since 2012: copyright_author
+
+#### started in 2023: copyright_text
