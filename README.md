@@ -29,3 +29,7 @@ This will add all files (.rb .rake .haml) the following markup (recursively):
 	# Author - YOUR NAME | Copyright(c) from BASE_YEAR until CURRENT_YEAR. All rights reserved.
 
 If already existing copyright comments will be replaced
+
+## Rubygems
+![Screenshot from 2023-01-26 21-06-39](https://user-images.githubusercontent.com/85773564/214977977-6497931a-be5d-4b03-a536-9ac304129136.png)
+
